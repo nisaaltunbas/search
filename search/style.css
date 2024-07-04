@@ -1,0 +1,176 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: arial, sans-serif;
+}
+
+.header {
+  height: 5vh;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.header .links {
+  margin-left: 30px;
+  display: flex;
+}
+
+.header .links a {
+  margin-left: 30px;
+  font-size: small;
+  color: rgba(0, 0, 0, 0.87);
+  text-decoration: none;
+}
+.header .links a:hover {
+  border-bottom: 1px solid rgb(0, 0, 0, 0.87);
+}
+
+.main {
+  height: 75vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.main .input {
+  border: 1px solid #beb6b6;
+  height: 13px;
+  border-radius: 24px;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  width: 584px;
+}
+
+.main .input i {
+  color: lightgray;
+}
+
+.main .input:hover {
+  box-shadow: 0 0 5px gray;
+}
+.main .input input {
+  width: 100%;
+  border: none;
+  box-shadow: none;
+  outline: none;
+  margin-left: 7px;
+  font-size: 16px;
+}
+
+.main #button {
+  display: flex;
+  justify-content: center;
+}
+.main #button input {
+  background-color: #beb6b6;
+  border: 1px solid #beb6b6;
+  border-radius: 5px;
+  font-size: 14px;
+  margin: 20px 5px;
+  padding: 10px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.advHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  font-size: small;
+}
+
+.googleImg {
+  width: auto;
+  display: flex;
+  align-items: center;
+}
+
+.googleImg img {
+  width: 70px;
+  height: auto;
+}
+
+.advHeader2 {
+  border-bottom: 1px solid #ebebeb;
+}
+.advHeader2 h3 {
+  color: rgb(252, 33, 33);
+  font-size: 20px;
+  margin-bottom: 20px;
+  margin-left: 35px;
+  margin-top: 15px;
+  font-weight: normal;
+}
+
+.firstInput .textWord {
+  font-size: 16px;
+  min-width: 167px;
+  width: 16%;
+  font-weight: 500;
+  color: #333;
+}
+
+.firstInput {
+  display: flex;
+  align-items: center;
+  max-width: 1140px;
+  min-width: 200px;
+  width: 96%;
+  margin: 40px 2% 0 45px;
+}
+
+.firstInput .input {
+  min-width: 167px;
+  width: 50%;
+}
+
+.firstInput .input input {
+  border-radius: 1px;
+  border: 1px solid #666;
+  font-size: 13px;
+  height: 25px;
+  padding: 1px 8px;
+  width: 100%;
+}
+
+.firstInput .impWords {
+  width: 32%;
+  min-width: 16px;
+  color: #333;
+  font-size: 11px;
+  padding-left: 30px;
+}
+
+span {
+  color: #666;
+  font-family: monospace;
+  font-size: 11px;
+  white-space: pre;
+}
+
+.firstInput .button {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.button input {
+  background-color: blue;
+  background-image: -webkit-linear-gradient(top, #4d90fe, #4787ed);
+  color: #fff;
+  height: 30px;
+  min-width: 120px;
+  border: 1px solid #3079ed;
+  border-radius: 2px;
+  font-size: 11px;
+  font-weight: bold;
+  margin-top: 30px;
+  margin-left: 45px;
+}
